@@ -2,11 +2,11 @@ class Shoe
   attr_accessor :color, :size, :material, :condition
   
   def initialize(brand)
-    @title = title
+    @brand = brand
   end
  
-  def title
-    @title
+  def brand
+    @brand
   end
  
   def cobble
