@@ -1,14 +1,29 @@
 class Book
-  def initialize(title, author)
+ 
+  def initialize(title)
     @title = title
-    @author = author
   end
+ 
   def title
     @title
   end
-  def author 
-    @author 
+ 
+  def author=(author)
+    @author = author
   end
+ 
+  def author
+    @author
+  end
+ 
+  def page_count=(num)
+    @page_count = num
+  end
+ 
+  def page_count
+    @page_count
+  end
+ 
 end
 
 Book.new("And Then There Were None")
